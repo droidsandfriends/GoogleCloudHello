@@ -7,6 +7,6 @@
     <title>Hello, ${fn:escapeXml(requestScope.username)}</title>
 </head>
 <body>
-    Hello, ${fn:escapeXml(requestScope.username)}! | <a href="${requestScope.logoutUrl}">Log out</a>
+    Hello, ${fn:escapeXml(requestScope.username)}! | <a href="${requestScope.logoutUrl}">Log out</a> | Now what?
 </body>
 </html>
